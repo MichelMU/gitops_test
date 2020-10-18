@@ -62,7 +62,7 @@ data:
     #CODE1.0:
     #add the nginx.conf configuration - this will be referenced within the deployment.yaml
     server {
-        listen 80;
+        listen 8182;
         server_name localhost;
 
         location / {
